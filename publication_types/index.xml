@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | CaRAML</title>
+    <link>https://caraml-group.github.io/publication_types/</link>
+      <atom:link href="https://caraml-group.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/media/logo_hu8da715e30f4039cd948a8044387c4554_914414_300x300_fit_lanczos_3.png</url>
+      <title>Publication_types</title>
+      <link>https://caraml-group.github.io/publication_types/</link>
+    </image>
+    
+  </channel>
+</rss>

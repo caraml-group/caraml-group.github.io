@@ -1,0 +1,2853 @@
+<!DOCTYPE html><html lang="en-uk" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Chaitanya K. Joshi" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="" />
+
+  
+  <link rel="alternate" hreflang="en-uk" href="https://caraml-group.github.io/lio-lab/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.ef2ab4069e0ce9590c66cb9986af9cc5.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu5b44568d2482d1849007e409f92143c3_269780_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5b44568d2482d1849007e409f92143c3_269780_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://caraml-group.github.io/lio-lab/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@https://twitter.com/CaRAMLgroup" />
+    <meta property="twitter:creator" content="@https://twitter.com/CaRAMLgroup" />
+  
+  <meta property="og:site_name" content="CaRAML" />
+  <meta property="og:url" content="https://caraml-group.github.io/lio-lab/" />
+  <meta property="og:title" content="CaRAML" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://caraml-group.github.io/media/logo_hu8da715e30f4039cd948a8044387c4554_914414_300x300_fit_lanczos_3.png" />
+    <meta property="twitter:image" content="https://caraml-group.github.io/media/logo_hu8da715e30f4039cd948a8044387c4554_914414_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-uk" />
+  
+    
+    
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>CaRAML</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="26f670e8ad7e98f9b4fddf2e6c95a843" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e5427316d1b14a30f257ae3467b3e21.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu8da715e30f4039cd948a8044387c4554_914414_0x70_resize_lanczos_3.png" alt="CaRAML"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hu8da715e30f4039cd948a8044387c4554_914414_0x70_resize_lanczos_3.png" alt="CaRAML"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#home"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post"><span>Blog</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#people"><span>People</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Groups</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/lio-lab"><span>Liò Lab</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+    
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+  
+    
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="home" class="home-section wg-hero dark "  >
+   <div class="home-section-bg  bg-image" style="background-image: url(&#39;https://caraml-group.github.io/media/computer-lab_hu6a5099d37efd3673014fec27294d7d0e_545367_1920x1920_fit_q75_h2_lanczos.webp&#39;);background-size: cover;background-position: center;filter: brightness(0.4);">
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+
+    
+
+    
+      <div class="hero-lead"><h1>Computational Biology Group</h1>
+<br>
+<p>The <strong>Compuational Biology Group</strong>, lead by <strong>Prof. Pietro Liò</strong> at the <strong>Computer Laboratory, University of Cambridge</strong>, develops Artificial Intelligence and Computational Biology models to understand diseases complexity and address personalised and precision medicine.</p>
+<br>
+</div>
+    
+
+    
+    
+
+    
+    
+
+  
+  
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="pietro" class="home-section wg-about  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle"
+           width="270" height="270"
+           src="/author/pietro-lio/avatar_hub19181af1adaaa237160b88d2278d844_63543_270x270_fill_q75_lanczos_center.jpg" alt="Pietro Liò">
+      
+
+      <div class="portrait-title">
+
+        <h2>Pietro Liò</h2>
+
+        <h3>Professor of Computational Biology</h3>
+
+        
+        <h3>
+          <a href="https://www.cst.cam.ac.uk/" target="_blank" rel="noopener">
+          <span>Department of Computer Science and Technology, University of Cambridge</span>
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://www.cl.cam.ac.uk/research/ai/" target="_blank" rel="noopener">
+          <span>Artificial Intelligence Group</span>
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://ccaim.cam.ac.uk/" target="_blank" rel="noopener">
+          <span>Cambridge Centre for AI in Medicine</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank" rel="noopener" aria-label="globe">
+            <i class="fas fa-globe big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <li>
+          <a href="mailto:Pietro.Lio@cl.cam.ac.uk"  aria-label="envelope">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://twitter.com/pl219_cambridge" target="_blank" rel="noopener" aria-label="twitter">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=3YrWf7EAAAAJ" target="_blank" rel="noopener" aria-label="google-scholar">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>About Pietro</h1>
+
+    <div class="article-style">
+      <p>I am Full Professor at the Department of Computer Science and Technology of the University of Cambridge. I am a member of the Artificial Intelligence Group and the Cambridge Centre for AI in Medicine.</p>
+<p>My research interest focuses on developing Artificial Intelligence and Computational Biology models to understand diseases complexity and address personalised and precision medicine. Current focus is on Graph Neural Network modeling.</p>
+
+    </div>
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <div class="section-subheading">Interests</div>
+        <ul class="ul-interests mb-0">
+          
+          <li>Computational Biology</li>
+          
+          <li>Bioinformatics</li>
+          
+          <li>Machine Learning</li>
+          
+          <li>Artificial Intelligence</li>
+          
+          <li>Complex Networks</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <div class="section-subheading">Education</div>
+        <ul class="ul-edu fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Complex Systems and Non Linear Dynamics, 2007</p>
+              <p class="institution">University of Firenze, Italy</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Theoretical Genetics, 1995</p>
+              <p class="institution">University of Pavia, Italy</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BSc in Electronic Engineering and in Biology, 1989</p>
+              <p class="institution">University of Firenze, Italy</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="postdoc" class="home-section wg-people  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Post-doctoral Researchers</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="phd" class="home-section wg-people  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>PhD Students</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/arian-jamasb/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/arian-jamasb/avatar_hu0e68c3206bc325f8f1408d7b13c4858d_19712_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/arian-jamasb/">Arian Jamasb</a></h2>
+      
+      <h3>PhD Student</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://jamasb.io/" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:arian@jamasb.io" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/arian_jamasb" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=hYm9a-UAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jamasb" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      <p class="people-interests">Computational Biology, Structural Biology, Machine Learning, Deep Learning</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/chaitanya-k.-joshi/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/chaitanya-k.-joshi/avatar_huc305be1d38555e11a7f4a1728107a3fe_294819_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/chaitanya-k.-joshi/">Chaitanya K. Joshi</a></h2>
+      
+      <h3>PhD Student</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.chaitjo.com/" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:ckj24@cl.cam.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/chaitjo" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=cwxVFVgAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/chaitjo" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="http://linkedin.com/in/chaitjo" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      <p class="people-interests">Geometric Deep Learning, Graph Neural Networks</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/cris-bodnar/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/cris-bodnar/avatar_hu756ae419dca872ecfcac293f58082c63_102385_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/cris-bodnar/">Cris Bodnar</a></h2>
+      
+      <h3>PhD Student</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://crisbodnar.github.io/" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:cb2015@cam.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/crisbodnar" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=pSmh9tkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/crisbodnar" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/crisbodnar" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      <p class="people-interests">Geometric Deep Learning, Topological Deep Learning, Nonlinear Dynamics</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/felix-l.-opolka/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/felix-l.-opolka/avatar_hu97eda57cc270baa235740a017b8df4f7_23488_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/felix-l.-opolka/">Felix L. Opolka</a></h2>
+      
+      <h3>PhD Student</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://felixopolka.me/" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/FelixOpo" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=8qGqAEkAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/Felix-Opolka" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      <p class="people-interests">Graph Representation Learning, Bayesian Inference</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/iulia-duta/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/iulia-duta/avatar_hu92dff6c3c00806706d3ca79f125fdabc_238389_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/iulia-duta/">Iulia Duta</a></h2>
+      
+      <h3>PhD Student</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://iuliaduta.github.io/" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:id366@cam.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/DutaIulia" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=7MRI1DsAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/dutaiulia/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      <p class="people-interests">Graph Neural Networks, Machine Learning, Deep Learning</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/simon-mathis/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/simon-mathis/avatar_hud1d953c1f001d9fd4684fe297fac28d1_91583_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/simon-mathis/">Simon Mathis</a></h2>
+      
+      <h3>PhD Student</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://simonmathis.com/" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/SimMat20" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=N6I6fT0AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Croydon-Brixton" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/simonmathis/" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      <p class="people-interests">Artificial Intelligence, Biotechnology, Protein Design, Environmental Applications, Quantum Physics</p>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="alumni" class="home-section wg-people  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Recent Alumni</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/catalina-cangea/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/catalina-cangea/avatar_hu8c38c4b237c0974d7bf528790874c712_15722_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/catalina-cangea/">Cătălina Cangea</a></h2>
+      
+      <h3>Research Scientist, DeepMind</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://catalinacangea.netlify.app/" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:catalina.cangea@cst.cam.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/catalinacangea" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/catalinacangea/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=Y0yIZpMAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      <p class="people-interests">Graph representation learning, Meta-learning, Multimodal learning, Real-world challenges</p>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="gallery" class="home-section wg-blank  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Photo Gallery</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    
+
+
+
+
+
+
+
+
+
+
+<div class="gallery">
+
+  
+  
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+    <a data-fancybox="gallery-lio-lab" href="/media/albums/lio-lab/birthdays_march2022.jpeg" data-caption="Birthdays of Dobrik and Chaitanya">
+      <img src="/media/albums/lio-lab/birthdays_march2022_hua8fc8428b21e3389333be46a257b6f95_1932152_0x190_resize_q75_h2_lanczos.webp" loading="lazy" alt="Birthdays of Dobrik and Chaitanya" width="253" height="190">
+    </a>
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+    <a data-fancybox="gallery-lio-lab" href="/media/albums/lio-lab/clarehall.jpeg" data-caption="At Clare Hall College">
+      <img src="/media/albums/lio-lab/clarehall_hu53908d6831cb3c713ab684ee721b802a_3283496_0x190_resize_q75_h2_lanczos.webp" loading="lazy" alt="At Clare Hall College" width="338" height="190">
+    </a>
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+    <a data-fancybox="gallery-lio-lab" href="/media/albums/lio-lab/group_28April2017.jpeg" data-caption="Group photo - 28 April 2017">
+      <img src="/media/albums/lio-lab/group_28April2017_hudcd2fabb94481d72982bd6e58e360a8b_352037_0x190_resize_q75_h2_lanczos.webp" loading="lazy" alt="Group photo - 28 April 2017" width="253" height="190">
+    </a>
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+    <a data-fancybox="gallery-lio-lab" href="/media/albums/lio-lab/group_Nov2013.jpeg" data-caption="Group photo - November 2013">
+      <img src="/media/albums/lio-lab/group_Nov2013_hu874c4b98b90d3f0ad28a10f30c3d4c3a_527511_0x190_resize_q75_h2_lanczos.webp" loading="lazy" alt="Group photo - November 2013" width="253" height="190">
+    </a>
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+    <a data-fancybox="gallery-lio-lab" href="/media/albums/lio-lab/pizzaexpress.jpeg" data-caption="Group social at PizzaExpress (a.k.a. Simon&amp;rsquo;s favorite restaurant)">
+      <img src="/media/albums/lio-lab/pizzaexpress_hu8d0db2eb5a962e15b7c0e3d7d5f09934_61113_0x190_resize_q75_h2_lanczos.webp" loading="lazy" alt="Group social at PizzaExpress (a.k.a. Simon&#39;s favorite restaurant)" width="254" height="190">
+    </a>
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+    <a data-fancybox="gallery-lio-lab" href="/media/albums/lio-lab/viva.jpeg" data-caption="The post Ph.D. viva of &amp;hellip; try to guess!">
+      <img src="/media/albums/lio-lab/viva_hu4e808f275a2cc2bd578b52d6c25b2812_2466819_0x190_resize_q75_h2_lanczos.webp" loading="lazy" alt="The post Ph.D. viva of ... try to guess!" width="253" height="190">
+    </a>
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+    <a data-fancybox="gallery-lio-lab" href="/media/albums/lio-lab/wolfson_formal.jpg" data-caption="Formal at Wolfson College">
+      <img src="/media/albums/lio-lab/wolfson_formal_hu2f4bf6970151c3b01d29293f8078c8a7_4027556_0x190_resize_q75_h2_lanczos.webp" loading="lazy" alt="Formal at Wolfson College" width="298" height="190">
+    </a>
+  
+
+</div>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="all" class="home-section wg-blank  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">All Current and Former Members</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <p><a href="https://www.cl.cam.ac.uk/~pms69/group.html" target="_blank" rel="noopener">(Source 1)</a>
+<a href="https://www.cl.cam.ac.uk/lists/phd/supervisor.html" target="_blank" rel="noopener">(Source 2)</a></p>
+<h2 id="research-associates">Research Associates</h2>
+<p><strong>🇪🇸 Helena Andrés Terre</strong>,
+Research Associate (2019-), PhD Student (2019).</p>
+<p><strong>🇷🇸 Nikola Simidjievski</strong>,
+Research Associate (2019-).</p>
+<p><strong>🇮🇹 Giovanna Maria Dimitri</strong>,
+Research Associate, PhD, MPhil in Advanced Computer Science (2014-2015).</p>
+<p><strong>🇮🇹 Gianluca Ascolani</strong>,
+Research Associate in Computational Biology,
+Physics of cancer, Modelling tumour growth,
+Collective behaviour of migrating cells,
+Bone remodelling,
+Crowding and exclusion processes, Complex renewal processes.</p>
+<p><strong>Viet Anh Nguyen</strong>,
+Research Associate, PhD Student (2007-2011),
+Bayesian approaches to biological network predictions.</p>
+<p><strong>🇮🇹 Julien Mozziconacci</strong>,
+Research Associate.</p>
+<p><strong>Elizabeth van der Wath</strong>,
+Research Associate.</p>
+<h2 id="research-students">Research Students</h2>
+<p><strong>🇮🇳 Chaitanya K. Joshi</strong>,
+PhD Student,
+Geometric Deep Learing.</p>
+<p><strong>🇬🇧 Carlos Purves</strong>,
+PhD Student,
+Reinforcement Learning.</p>
+<p><strong>🇬🇧 Alexander Norcliffe</strong>,
+PhD Student,
+Deep learning and neural ODEs for prognosis.</p>
+<p><strong>🇬🇧 Charles Harris</strong>,
+PhD Student,
+AI for structural biology and drug design.</p>
+<p><strong>🇩🇪 Lucie Charlotte Magister</strong>,
+PhD Student,
+Explainability and Interpretability for Deep Learning.</p>
+<p><strong>🇦🇹 Simon Mathis</strong>,
+PhD Student,
+Machine learning and bioinformatics methods to detect climate change signatures on a molecular biology level.</p>
+<p><strong>🇷🇴 Iulia Duta</strong>,
+PhD Student,
+Learning to infer structure for graph representation learning.</p>
+<p><strong>🇷🇴 David Buterez</strong>,
+PhD Student,
+Machine learning for high-throughput screening.</p>
+<p><strong>🇬🇧 Jacob Moss</strong>,
+PhD Student,
+Machine learning models of genetic regulation.</p>
+<p><strong>🇮🇹 Pietro Barbiero</strong>,
+PhD Student.</p>
+<p><strong>🔴🟡 Ramon Viñas Torné</strong>,
+PhD Student,
+Learning the generating mechanisms of multi-omics data.</p>
+<p><strong>🇧🇬 Dobrik Georgiev</strong>,
+PhD Student,
+Neural algorithmic reasoning for computer science and biomedicine.</p>
+<p><strong>🇩🇪 Felix Lukas Opolka</strong>,
+PhD Student,
+Bayesian modelling and deep learning for static and dynamic graphs.</p>
+<p><strong>🇺🇸 Paris Flood</strong>,
+PhD Student,
+Machine Learning for personalized healthcare.</p>
+<p><strong>🇨🇳 Junwei Yang</strong>,
+PhD Student,
+Multi-task learning for medical image reconstruction and analysis.</p>
+<p><strong>🇬🇧 Jacob Deasy</strong>,
+PhD Student,
+Deep Learning for electronic health records.</p>
+<p><strong>🇩🇪 Paul Scherer</strong>,
+PhD Student,
+Graph representation learning theory and practice for systems biology.</p>
+<p><strong>🇬🇧 Alexander Campbell</strong>,
+PhD Student,
+Machine learning for healthcare.</p>
+<p><strong>🇷🇴 Cristian Bodnar</strong>,
+PhD Student,
+Evolution guided learning.</p>
+<p><strong>🇬🇧 Emma Rocheteau</strong>,
+PhD Student,
+Predicting outcomes in psychiatric disorders using reinforcement learning.</p>
+<p><strong>🇳🇴 Arian Rokkum Jamasb</strong>,
+PhD Student,
+Deep learning for structural biology and drug discovery.</p>
+<p><strong>🇬🇧 Ben Day</strong>,
+PhD Student,
+Graph representation learning.</p>
+<p><strong>🇷🇴 Cătălina Cangea</strong>,
+PhD Student,
+Exploiting multimodality and structure in world representations.</p>
+<p><strong>🇨🇳 Duo Wang</strong>,
+PhD Student,
+Bridging computer science with neuroscience towards a new understanding of reasoning.</p>
+<p><strong>🇨🇳 Jin Zhu</strong>,
+PhD Student,
+Medical image processing and clinical decision support system.</p>
+<p><strong>🇵🇹 Tiago Azevedo</strong>,
+PhD Student,
+Machine learning and connectomics in brain informatics.</p>
+<p><strong>🇧🇬 Simeon Spasov</strong>,
+PhD Student.</p>
+<p><strong>🇷🇸 Petar Veličković</strong>,
+Research Assistant in Computational Biology, PhD Student (Completed 2019), Computer Science Tripos, Part II (2014-2015),
+The resurgence of structure in deep neural networks.</p>
+<p><strong>🇬🇧 Max Conway</strong>,
+PhD Student,
+Machine learning methods for detecting structure in metabolic flow networks.</p>
+<p><strong>Pablo Spivakovsky-González</strong>
+PhD Student.</p>
+<p><strong>🇨🇳 Hui Xiao</strong>,
+PhD Student (2014-2018),
+Network-based approaches for multi-omic data integration.</p>
+<p><strong>🇳🇱 Thomas Brouwer</strong>,
+PhD Student (2014-2018),
+Bayesian matrix factorisation: inference, priors and data integration.</p>
+<p><strong>🇮🇹 Annalisa Occhipinti</strong>,
+PhD Student (2013-2017),
+Computational models of cancer for survival prediction.</p>
+<p><strong>🇹🇭 Naruemon Pratanwanich</strong>,
+PhD Student (2012-2016),
+Probabilistic latent variable modelling for integrated biological data.</p>
+<p><strong>🇮🇱 Yoli Shavit</strong>,
+PhD Student (2012-2015),
+Algorithms for reconstructing the 3D genome architecture.</p>
+<p><strong>🇮🇹 Claudio Angione</strong>,
+PhD Student (2011-2015),
+Computational methods for multi-omic models of cell metabolism and their importance for theoretical computer science.</p>
+<p><strong>Mohammad Ali Moni</strong>
+PhD Student (2011-2015),
+Clinical bioinformatics and computational modelling for disease comorbidities diagnosis.</p>
+<p><strong>Yuedong Song</strong>,
+PhD Student (2008-2015),
+Electroencephalogram machine learning to assist diagnosis and treatment of epilepsy.</p>
+<p><strong>Azree Nazri</strong>
+PhD Student (Graduated in 2012; co-supervised).</p>
+<p><strong>Syed Haider</strong>,
+PhD Student (2009-2012),
+Computational systems biology-based feature selection for cancer prognosis.</p>
+<p><strong>Stephan Kitchovich</strong>,
+PhD Student (2008-2012),
+Computational modelling and analysis of seasonal influenza transmission and evolution.</p>
+<p><strong>Anilkumar Sorathiya</strong>,
+PhD Student (2007-2011),
+Computational modelling approaches to HIV-1 dynamics.</p>
+<p><strong>Ian Leung</strong>,
+PhD Student (2008-2011),
+Fast network analysis and applications in real-world networks.</p>
+<p><strong>Richard van der Wath</strong>,
+PhD Student (2005-2010),
+Computational modelling of hematopoietic stem cell division and regulation dynamics.</p>
+<h2 id="masters-students">Master&rsquo;s Students</h2>
+<p><strong>Carlos Purves</strong>,
+Computer Science Tripos, Part III (2019-2020),
+Goal-conditioned Reinforcement Learning in the Presence of an Adversary.</p>
+<p><strong>Razvan Kusztos</strong>,
+Computer Science Tripos, Part III,
+Neural architectures for brain network connectivity modelling.</p>
+<p><strong>Nathaniel McAleese-Park</strong>,
+Computer Science Tripos, Part III,
+Cross-modal learning for the joint understanding of 2D and 3D data.</p>
+<p><strong>Miloš Stanojević</strong>,
+Computer Science Tripos, Part III,
+Neural network hyperparameter optimisation on small validation sets.</p>
+<p><strong>Ioana Bica</strong>,
+MPhil in Advanced Computer Science, Computer Science Tripos, Part II (2016-2017).</p>
+<p><strong>Michelle Zheng</strong>,
+MPhil in Advanced Computer Science,
+Deep learning for image analysis of super-resolution microscopy.</p>
+<p><strong>Zhenyu Cai</strong>,
+Natural Sciences Tripos, Part III (2016-2017),
+Clustering and energy-based approaches to sparsifying neural networks.</p>
+<p><strong>Robert Nagy</strong>
+Natural Sciences Tripos, Part III (2016-2017).</p>
+<p><strong>Laurynas Karazija</strong>,
+Computer Science Tripos, Part III (2016-2017),
+Automatic inference of cross-modal connection topologies for X-CNNs.</p>
+<p><strong>Edgaras Liberis</strong>,
+Computer Science Tripos, Part III (2016-2017),
+Antibody binding residue prediction.</p>
+<p><strong>Alexander Rakowski</strong>,
+Computer Science Tripos, Part III (2016-2017),
+Chronomid: Cross-modal neural nets for 3-D temporal medical imaging data.</p>
+<p><strong>Sivo Daskalov</strong>,
+MPhil in Advanced Computer Science (2016-2017),
+Machine learning network-constrained regression of epigenetic data.</p>
+<p><strong>Joshua Greenwood</strong>,
+MPhil in Advanced Computer Science (2016-2017),
+Clinical diagnosis support system: creating a logically connected multi layer network for the diagnosis of metabolic syndrome.</p>
+<p><strong>Victor Prokhorov</strong>,
+MPhil in Advanced Computer Science (2016-2017),
+Learning rare word representations using semantic bridging.</p>
+<p><strong>Rui Zhang</strong>,
+MPhil in Advanced Computer Science (2016-2017),
+A fusion model on feature extraction of bio-medical images with deep learning techniques.</p>
+<p><strong>Wing Cheung Kenneth Lui</strong>,
+MPhil in Advanced Computer Science (2015-2016),
+Towards reproducible and intelligible data anlytic workflow on interoperable electronic health records (EHR) data.</p>
+<p><strong>Shuo Zhang</strong>,
+MPhil in Advanced Computer Science (2015-2016),
+Mining drug-target interactions by Bayesian matrix factorisation.</p>
+<p><strong>William Jones</strong>,
+MPhil in Advanced Computer Science (2014-2015),
+In silico prediction of anti-cancer drug sensitivity.</p>
+<p><strong>Yiding Lu</strong>,
+MPhil in Advanced Computer Science (2014-2015),
+Link prediction in drug-target interactions network using similarity indices.</p>
+<p><strong>Otilia Stretcu</strong>,
+MPhil in Advanced Computer Science (2014-2015),
+Machine learning approaches for microscopic image mining.</p>
+<p><strong>Haoming Xu</strong>,
+MPhil in Advanced Computer Science (2013-2014),
+Machine learning approach for integrating molecular and clinical data to predict human disease network.</p>
+<h2 id="undergraduate-students">Undergraduate Students</h2>
+<p><strong>Alexandru-Catalin Filip</strong>
+Computer Science Tripos, Part II,
+Regression model using GAT architecture on brain-graph data.</p>
+<p><strong>Roxana Elena Dumitriu</strong>,
+Computer Science Tripos, Part II,
+Prediction of Parkinson’s Disease Progression using Supervised Machine Learning Methods.</p>
+<p><strong>Benedict Aaron Tjandra</strong>,
+Computer Science Tripos, Part II (2019-2020),
+Multimodal Relational Reasoning for Visual Question Answering.</p>
+<p><strong>Péter Mernyei</strong>,
+Computer Science Tripos, Part II (2019-2020),
+Wiki-CS: A Wikipedia-Based Benchmark for Graph Neural Networks.</p>
+<p><strong>Carlos Purves</strong>,
+Computer Science Tripos, Part II (2018-2019),
+The PlayStation Reinforcement Learning Environment.</p>
+<p><strong>Andreea-Ioana Deac</strong>,
+Computer Science Tripos, Part II,
+Neural architectures for end-to-end paratope prediction.</p>
+<p><strong>Marko Stanković</strong>,
+Computer Science Tripos, Part II.</p>
+<p><strong>Andrew Wells</strong>,
+Computer Science Tripos, Part II,
+Deep Learning for Music Recommendation.</p>
+<p><strong>Sebastian Borgeaud dit Avocat</strong>,
+Computer Science Tripos, Part II (2016-2017),
+Brain tumour segmentation using convolutional neural networks.</p>
+<p><strong>Matthew Coley</strong>,
+Computer Science Tripos, Part II (2016-2017),
+A stochastic model of the comorbidity of type 2 diabetes and rheumatoid arthritis.</p>
+<p><strong>Momchil Peychev</strong>,
+Computer Science Tripos, Part II (2016-2017),
+Experimental study on the properties of disentangled autoencoders.</p>
+<p><strong>Tudor Petru Ţiplea</strong>,
+Computer Science Tripos, Part II (2016-2017),
+An end-to-end control policy system for the GameBoy platform.</p>
+<p><strong>George Wort</strong>,
+Computer Science Tripos, Part II (2016-2017),
+Modelling epidermis homeostasis and psoriasis pathogenesis using an agent-based model.</p>
+<p><strong>Michael Painter</strong>,
+Computer Science Tripos, Part II (2015-2016),
+Spectral image analysis for medical imaging.</p>
+<p><strong>Artjoms Iškovs</strong>,
+Computer Science Tripos, Part II (2014-2015),
+Predicting drug-pathway interactions using the correlated topic model.</p>
+<p><strong>Kittinun Phatpanichot</strong>,
+Computer Science Tripos, Part II (2013-2014),
+Inferring drug&rsquo;s pathway-based groups from differential gene expression data using a topic model.</p>
+<p><strong>Stefan Stojanović</strong>,
+Computer Science Tripos, Part II (2013-2014),
+Computational modelling of diabetes.</p>
+<p><strong>Rolandas Glotnis</strong>,
+Computer Science Tripos, Part II (2012-2013),
+Optimising a multi-objective problem solving algorithm through improvements in search functions.</p>
+<h2 id="visitors">Visitors</h2>
+<p><strong>🇨🇭 Olivier Dietrich</strong>,
+Visiting from ETH Zürich (10.2021 to 04.2022),
+Using deep learning on genetics data to assess impact of climate change on cold-adapted fish.</p>
+<p><strong>Marco Botta</strong>, Sabbatical.</p>
+<p><strong>Xiaofeng Lu</strong>, Visitor.</p>
+<p><strong>Eric Yu-En Lu</strong>, Visitor (HKU).</p>
+<p><strong>Kuang Xu</strong>, Visitor (HKU).</p>
+<p><strong>Cyrus Chan</strong>, Visitor (CUHK).</p>
+<p><strong>Francesco Piazza</strong>, Visitor (U. Orleans).</p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 CaRAML - Cambridge Research &amp; Applications in Machine Learning.
+  </p>
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.3d946de2e8784a477845261d87025092.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.e8fd2d733eef6a8bbbe0539398fc0547.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.a2ed145159dd33ad55ff402163350b5d.js"></script>
+
+    
+    
+      <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+    
+    
+    
+    
+
+
+
+
+
+
+</body>
+</html>
