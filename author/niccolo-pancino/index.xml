@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Niccolò Pancino | CaRAML</title>
+    <link>https://caraml-group.github.io/author/niccolo-pancino/</link>
+      <atom:link href="https://caraml-group.github.io/author/niccolo-pancino/index.xml" rel="self" type="application/rss+xml" />
+    <description>Niccolò Pancino</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/niccolo-pancino/avatar_hufd0b01d5572c91ee8eea8450df0a44a1_58951_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Niccolò Pancino</title>
+      <link>https://caraml-group.github.io/author/niccolo-pancino/</link>
+    </image>
+    
+  </channel>
+</rss>

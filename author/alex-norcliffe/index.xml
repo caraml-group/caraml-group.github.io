@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex Norcliffe | CaRAML</title>
+    <link>https://caraml-group.github.io/author/alex-norcliffe/</link>
+      <atom:link href="https://caraml-group.github.io/author/alex-norcliffe/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alex Norcliffe</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/alex-norcliffe/avatar_hu294ad11fd1a4ba1ccfc1609a6c6a831e_1143871_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Alex Norcliffe</title>
+      <link>https://caraml-group.github.io/author/alex-norcliffe/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luna Pianesi | CaRAML</title>
+    <link>https://caraml-group.github.io/author/luna-pianesi/</link>
+      <atom:link href="https://caraml-group.github.io/author/luna-pianesi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Luna Pianesi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/luna-pianesi/avatar_hub6da4db3359f3796715565c0fb7de261_47579_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Luna Pianesi</title>
+      <link>https://caraml-group.github.io/author/luna-pianesi/</link>
+    </image>
+    
+  </channel>
+</rss>
