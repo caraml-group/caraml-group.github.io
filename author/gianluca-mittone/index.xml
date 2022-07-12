@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gianluca Mittone | CaRAML</title>
+    <link>https://caraml-group.github.io/author/gianluca-mittone/</link>
+      <atom:link href="https://caraml-group.github.io/author/gianluca-mittone/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gianluca Mittone</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/gianluca-mittone/avatar_hu8bebbdb3432930d415c8d7053dc792d5_403354_270x270_fill_lanczos_center_3.png</url>
+      <title>Gianluca Mittone</title>
+      <link>https://caraml-group.github.io/author/gianluca-mittone/</link>
+    </image>
+    
+  </channel>
+</rss>
