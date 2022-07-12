@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dmitry Kazhdan | CaRAML</title>
+    <link>https://caraml-group.github.io/author/dmitry-kazhdan/</link>
+      <atom:link href="https://caraml-group.github.io/author/dmitry-kazhdan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dmitry Kazhdan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/dmitry-kazhdan/avatar_hu16d018a97a628003156214767285b6b5_33642_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Dmitry Kazhdan</title>
+      <link>https://caraml-group.github.io/author/dmitry-kazhdan/</link>
+    </image>
+    
+  </channel>
+</rss>

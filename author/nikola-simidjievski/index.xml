@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nikola Simidjievski | CaRAML</title>
+    <link>https://caraml-group.github.io/author/nikola-simidjievski/</link>
+      <atom:link href="https://caraml-group.github.io/author/nikola-simidjievski/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nikola Simidjievski</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/nikola-simidjievski/avatar_hu269e39f33077cae1ea551b134c319a2b_480539_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Nikola Simidjievski</title>
+      <link>https://caraml-group.github.io/author/nikola-simidjievski/</link>
+    </image>
+    
+  </channel>
+</rss>
