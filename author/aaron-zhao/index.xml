@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aaron Zhao | CaRAML</title>
+    <link>https://caraml-group.github.io/author/aaron-zhao/</link>
+      <atom:link href="https://caraml-group.github.io/author/aaron-zhao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aaron Zhao</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/aaron-zhao/avatar_hu696ddfc935800dcb0e5fde426066377e_7529410_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Aaron Zhao</title>
+      <link>https://caraml-group.github.io/author/aaron-zhao/</link>
+    </image>
+    
+  </channel>
+</rss>
