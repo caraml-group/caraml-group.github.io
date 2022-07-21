@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrei Margeloiu | CaRAML</title>
+    <link>https://caraml-group.github.io/author/andrei-margeloiu/</link>
+      <atom:link href="https://caraml-group.github.io/author/andrei-margeloiu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrei Margeloiu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/andrei-margeloiu/avatar_hu72e88f4bfa291379a56bda1b8df5324d_138002_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Andrei Margeloiu</title>
+      <link>https://caraml-group.github.io/author/andrei-margeloiu/</link>
+    </image>
+    
+  </channel>
+</rss>
