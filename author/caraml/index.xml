@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CaRAML</title>
-    <link>https://caraml-group.github.io/</link>
-      <atom:link href="https://caraml-group.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://caraml-group.github.io/author/caraml/</link>
+      <atom:link href="https://caraml-group.github.io/author/caraml/index.xml" rel="self" type="application/rss+xml" />
     <description>CaRAML</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language><lastBuildDate>Sat, 30 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://caraml-group.github.io/media/logo_hu8da715e30f4039cd948a8044387c4554_914414_300x300_fit_lanczos_3.png</url>
+      <url>https://caraml-group.github.io/author/caraml/avatar_huf1763a7338fe7ab3795f33df6ac275b8_937216_270x270_fill_lanczos_center_3.png</url>
       <title>CaRAML</title>
-      <link>https://caraml-group.github.io/</link>
+      <link>https://caraml-group.github.io/author/caraml/</link>
     </image>
     
     <item>
@@ -37,14 +37,6 @@ The website supports markdown and LaTeX.&lt;/p&gt;
 &lt;h2 id=&#34;how-did-caraml-start&#34;&gt;How did CaRAML start?&lt;/h2&gt;
 &lt;p&gt;CaRAML was &lt;strong&gt;started in 2020&lt;/strong&gt; (and restarted in 2022) by PhD students at the Computer Laboratory and their cross-departmental collaborators, with the goal of promoting AI and ML research happening across Cambridge and building a likeminded community.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://caraml-group.github.io/admin/config.yml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://caraml-group.github.io/admin/config.yml</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -18,11 +18,24 @@
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://caraml-group.github.io/post/announcing-caraml/</guid>
       <description>&lt;img src=&#34;caraml.jpeg&#34;&gt;
-&lt;p&gt;CaRAML is a community of machine learning and artificial intelligence researchers at the University of Cambridge.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-&lt;p&gt;platform for sharing research via blogs and talks&lt;/p&gt;
-&lt;p&gt;bring people together and build a community via in-person social interactions and social media presensce&lt;/p&gt;
+&lt;h2 id=&#34;what-is-caraml&#34;&gt;What is CaRAML?&lt;/h2&gt;
+&lt;p&gt;CaRAML - &lt;strong&gt;Cambridge Research &amp;amp; Applications in Machine Learning&lt;/strong&gt; - is a community of machine learning and artificial intelligence researchers at the University of Cambridge.
+CaRAML aims to bring together Cambridge students, researchers, and faculty working in ML and AI across theory and practice.
+CaRAML is primarily a &lt;strong&gt;student-led effort&lt;/strong&gt;, and not an official affliliation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-are-the-goals-of-caraml&#34;&gt;What are the goals of CaRAML?&lt;/h2&gt;
+&lt;h3 id=&#34;community&#34;&gt;Community&lt;/h3&gt;
+&lt;p&gt;The primary goal of CaRAML is to build a community and bring likeminded people together via &lt;strong&gt;in-person social interactions&lt;/strong&gt; and &lt;a href=&#34;https://caraml-group.github.io/events/&#34;&gt;&lt;strong&gt;events&lt;/strong&gt;&lt;/a&gt;.
+Events can range from research focussed meetups and reading groups, to socials at local restaurants and pubs, to activities such as sports or hikes.&lt;/p&gt;
+&lt;h3 id=&#34;research-platform&#34;&gt;Research Platform&lt;/h3&gt;
+&lt;p&gt;CaRAML also aims to provide a platform for sharing and disseminating research via &lt;a href=&#34;https://caraml-group.github.io/post/&#34;&gt;&lt;strong&gt;blogposts&lt;/strong&gt;&lt;/a&gt; and &lt;strong&gt;talks&lt;/strong&gt;, as well as highlight members&amp;rsquo; achievements via an active &lt;a href=&#34;https://twitter.com/CaRAMLCambridge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;social media&lt;/strong&gt;&lt;/a&gt; presence.&lt;/p&gt;
+&lt;p&gt;The CaRAML blog can host or link to blogposts written by members about their latest papers, commentaries on recent research advances, and beyond.
+The website supports markdown and LaTeX.&lt;/p&gt;
+&lt;h3 id=&#34;collaboration-channel&#34;&gt;Collaboration Channel&lt;/h3&gt;
+&lt;p&gt;Finally, CaRAML is an active &lt;a href=&#34;https://caraml-group.slack.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Slack channel&lt;/strong&gt;&lt;/a&gt; where members can collaborate on research projects, discuss papers in reading groups, advertise opportunities, organise social events, and much more.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-did-caraml-start&#34;&gt;How did CaRAML start?&lt;/h2&gt;
+&lt;p&gt;CaRAML was &lt;strong&gt;started in 2020&lt;/strong&gt; (and restarted in 2022) by PhD students at the Computer Laboratory and their cross-departmental collaborators, with the goal of promoting AI and ML research happening across Cambridge and building a likeminded community.&lt;/p&gt;
 </description>
     </item>
     
