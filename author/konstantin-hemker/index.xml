@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konstantin Hemker | CaRAML</title>
+    <link>https://caraml-group.github.io/author/konstantin-hemker/</link>
+      <atom:link href="https://caraml-group.github.io/author/konstantin-hemker/index.xml" rel="self" type="application/rss+xml" />
+    <description>Konstantin Hemker</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/konstantin-hemker/avatar_hue7c3342625acc1ca68a195a74aa1c4e8_68620_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Konstantin Hemker</title>
+      <link>https://caraml-group.github.io/author/konstantin-hemker/</link>
+    </image>
+    
+  </channel>
+</rss>
