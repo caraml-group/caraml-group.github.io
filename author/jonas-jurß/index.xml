@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonas Jürß | CaRAML</title>
+    <link>https://caraml-group.github.io/author/jonas-jur%C3%9F/</link>
+      <atom:link href="https://caraml-group.github.io/author/jonas-jur%C3%9F/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jonas Jürß</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language>
+    <image>
+      <url>https://caraml-group.github.io/author/jonas-jur%C3%9F/avatar_hu16ec3d9deee5832ac79e561f4f3ee0d1_102130_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Jonas Jürß</title>
+      <link>https://caraml-group.github.io/author/jonas-jur%C3%9F/</link>
+    </image>
+    
+  </channel>
+</rss>
